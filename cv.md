@@ -9,6 +9,16 @@
 ## Education
    Plekhanov Russian University of Economics
 
+## Code
+   def has_overlap(events):
+       events.sort(key = lambda x: x['start']
+
+       for i in range(len(events) - 1):
+           if events[i]['end'] > events[i + 1]['start]:
+           return True
+
+      return False
+
 ## Language
     Russian-native
     English-B1
